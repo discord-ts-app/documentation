@@ -4,6 +4,8 @@ description: "First of all, you will need to download the structure of the bot t
 
 # Setup
 
+
+
 ### Download the framework
 
 In the first time, clone the base repository

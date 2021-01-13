@@ -25,5 +25,5 @@ export default class Module {
 
 ```
 
-That's it, nothing more is needed ! 😅 
+
 

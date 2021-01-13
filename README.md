@@ -1,2 +1,4 @@
-# Initial page
+# README.md
+
+{% page-ref page="./" %}
 

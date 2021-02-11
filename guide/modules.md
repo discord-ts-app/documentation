@@ -7,7 +7,7 @@ import { Event, Events, Command, Middleware, Lifecycles } from '@discord-ts-app/
 import { Message } from 'discord.js'
 
 export default class Module {
-	@Event({ type: Events.MESSAGE })
+	@Event('ready')
 	public async event(message: Message): Promise<void> {
 		// Your code here
 	}
@@ -17,7 +17,7 @@ export default class Module {
 		// Your code here
 	}
 
-	@Middleware({ lifecycle: Lifecycles.MESSAGE_RECEIVED })
+	@Middleware('messageReceived')
 	public async middleware(): Promise<void> {
 		// Your code here
 	}
